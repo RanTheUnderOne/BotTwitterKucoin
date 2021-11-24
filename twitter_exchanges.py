@@ -131,7 +131,7 @@ if not skip_input:
 		sell_coin = 'BTC'
 		skip_input = True
 	else:
-		sell_coin  = cryptos[sell_input]['symbol']
+		sell_coin = cryptos[sell_input]['symbol']
 		skip_input = False
 
 
@@ -147,7 +147,7 @@ if not skip_input:
 		hold_time = ast.literal_eval('['+hold_time+']')
 	print(hold_time)
 
-print('\nHodl time : '+'%.2fs '*len(hold_time) % tuple(hold_time))
+print('\nHold time : '+'%.2fs '*len(hold_time) % tuple(hold_time))
 
 # Amount in USD to buy
 if not skip_input:

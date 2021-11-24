@@ -88,10 +88,10 @@ if not skip_input:
 	if username:
 		user = users[username]
 	else:
-		user = users['me']
+		user = users['bullet']
 		skip_input = True
 else:
-	user = users['me']
+	user = users['bullet']
 
 # Time after buying before selling
 hold_time = [1]
